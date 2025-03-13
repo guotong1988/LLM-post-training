@@ -5,7 +5,7 @@
 
 
 ##  Requirements
-python==3.8.13
+Python==3.8.13
 
 transformers==4.46.3, trl==0.11.4, [torch==2.4.1+cu118](https://download.csdn.net/download/guotong1988/89930582), peft==0.13.2, bitsandbytes==0.42.0
 
