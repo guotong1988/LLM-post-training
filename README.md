@@ -7,7 +7,7 @@
 `sh run_peft_multigpu.sh`
 
 ##  Requirements
-Python==3.8.13
+Python==3.8.13 or Python==3.9.12 
 
 [torch==2.4.1+cu118](https://download.csdn.net/download/guotong1988/89930582)
 
