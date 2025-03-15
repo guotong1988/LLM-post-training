@@ -13,7 +13,7 @@ Python==3.8.13
 
 [flash-attn](https://github.com/Dao-AILab/flash-attention/releases)
 
-transformers==4.46.3 trl==0.11.4 peft==0.13.2 bitsandbytes==0.42.0
+transformers==4.46.3 trl==0.11.4 peft==0.13.2 bitsandbytes==0.42.0 accelerate==0.34.2
 
 #### Dataset for example
 
