@@ -6,7 +6,7 @@
 
 `sh run_peft_multigpu.sh`
 
-## Run-Test
+## Run-Predict
 
 `predict.py`
 
