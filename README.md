@@ -15,7 +15,7 @@ Python==3.8.13 or Python==3.9.12
 
 [torch==2.4.1+cu118](https://download.csdn.net/download/guotong1988/89930582) (Both CUDA 11.4 and 11.8 are acceptable.)
 
-[flash-attn](https://github.com/Dao-AILab/flash-attention/releases)
+[flash-attn](https://github.com/Dao-AILab/flash-attention/releases) (abiFALSE)
 
 transformers==4.46.3 trl==0.11.4 peft==0.13.2 bitsandbytes==0.42.0 accelerate==0.34.2
 
