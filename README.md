@@ -33,5 +33,5 @@ Dataset for example [Chinese-DeepSeek-R1-Distill-data-110k](https://download.csd
 
 Pretrained model for example [Qwen2.5-0.5B](https://download.csdn.net/download/guotong1988/90479648) 
 
-## 2.4 References
+## References
 https://github.com/huggingface/peft/tree/main/examples/sft
