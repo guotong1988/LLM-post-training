@@ -8,7 +8,7 @@
 
 ## Run-Train One-Gpu
 
-`run_peft.sh`
+`run_peft_onegpu.sh`
 
 ## Run-Predict
 
