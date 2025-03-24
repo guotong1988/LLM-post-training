@@ -17,11 +17,15 @@
 ##  Requirements
 Python==3.8 【by conda】
 
+#### Requirements Step-1 
+
+transformers==4.46.3 trl==0.11.4 peft==0.13.2 bitsandbytes==0.42.0 accelerate==0.34.2
+
+#### Requirements Step-2
+
 [torch==2.4.1+cu118](https://download.csdn.net/download/guotong1988/89930582) 
 
 [flash-attn](https://github.com/Dao-AILab/flash-attention/releases) (abiFALSE, for python38)
-
-transformers==4.46.3 trl==0.11.4 peft==0.13.2 bitsandbytes==0.42.0 accelerate==0.34.2
 
 #### Dataset for example
 
