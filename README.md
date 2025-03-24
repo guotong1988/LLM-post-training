@@ -4,15 +4,13 @@
 
 ## 1. Run
 
-### 1.1 Run-Train Multi-Gpu
+### 1.1 Run-Train
 
 `run_peft_multigpu.sh`
 
-### 1.2 Run-Train One-Gpu
-
 `run_peft_onegpu.sh`
 
-### 1.3 Run-Predict
+### 1.2 Run-Predict
 
 `predict.py`
 
