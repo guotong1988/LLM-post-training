@@ -11,7 +11,7 @@
 `predict.py`
 
 ##  Requirements
-Python==3.9
+Python==3.9 (conda)
 
 [torch==2.4.1+cu118](https://download.csdn.net/download/guotong1988/89930582) (Both CUDA 11.4 and 11.8 are acceptable.)
 
