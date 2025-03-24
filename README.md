@@ -6,6 +6,10 @@
 
 `sh run_peft_multigpu.sh`
 
+## Run-Train One-Gpu
+
+`sh run_peft.sh`
+
 ## Run-Predict
 
 `predict.py`
