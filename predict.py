@@ -1,13 +1,15 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+
 model_name = "Qwen2.5-0.5B"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name).to(device)
 
 text = "Once upon a time"
 
-inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=64)
+inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=64).to(device)
 
 print(len(inputs[0]))
 
