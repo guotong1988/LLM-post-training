@@ -14,7 +14,7 @@ inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max
 print(len(inputs[0]))
 
 with torch.no_grad():
-    outputs = model.generate(**inputs, num_return_sequences=1)
+    outputs = model.generate(**inputs, max_length=128, num_return_sequences=1)
 
 
 generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
