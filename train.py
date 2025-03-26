@@ -119,7 +119,9 @@ def main(model_args, data_args, training_args):
         apply_chat_template=model_args.chat_template_format != "none",
     )
 
-    # trainer
+    def custom_format(example):
+        return f"{example['input']}\n{example['content']}\n"
+
     trainer = SFTTrainer(
         model=model,
         tokenizer=tokenizer,
@@ -127,7 +129,9 @@ def main(model_args, data_args, training_args):
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         peft_config=peft_config,
+        formatting_func=custom_format
     )
+
     trainer.accelerator.print(f"{trainer.model}")
     if hasattr(trainer.model, "print_trainable_parameters"):
         trainer.model.print_trainable_parameters()
