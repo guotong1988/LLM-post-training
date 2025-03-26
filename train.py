@@ -119,6 +119,7 @@ def main(model_args, data_args, training_args):
         apply_chat_template=model_args.chat_template_format != "none",
     )
 
+    # 对于本项目数据集的适配
     def custom_format(example):
         return f"{example['input']}\n{example['content']}\n"
 
