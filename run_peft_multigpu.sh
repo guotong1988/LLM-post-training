@@ -12,7 +12,6 @@ torchrun --nproc_per_node 4 --nnodes 1 train.py \
 --logging_strategy "steps" \
 --eval_strategy "epoch" \
 --save_strategy "epoch" \
---hub_strategy "every_save" \
 --bf16 True \
 --packing True \
 --learning_rate 1e-4 \
