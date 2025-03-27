@@ -12,8 +12,6 @@ python3 train.py \
 --logging_strategy "steps" \
 --eval_strategy "epoch" \
 --save_strategy "epoch" \
---hub_private_repo True \
---hub_strategy "every_save" \
 --bf16 True \
 --packing True \
 --learning_rate 1e-4 \
