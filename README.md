@@ -40,3 +40,5 @@ https://github.com/huggingface/peft/tree/main/examples/sft
 ## Related Repos
 
 https://github.com/hiyouga/LLaMA-Factory
+
+https://github.com/deepspeedai/DeepSpeedExamples
