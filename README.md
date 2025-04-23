@@ -16,7 +16,7 @@ Reference: https://github.com/huggingface/peft/tree/main/examples/sft
 
 `predict.py`
 
-## 1.3 Fine-tune Requirements
+## 1.3 Requirements (Fine-tune)
 
 #### 1.3.1 Requirements Step-1
 
