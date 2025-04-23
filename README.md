@@ -1,4 +1,4 @@
-# LLM-post-training examples
+# LLM fine-tune/post-training examples
 
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/3cb6655c-ae09-4106-b1b6-47983a127f37" />
 
